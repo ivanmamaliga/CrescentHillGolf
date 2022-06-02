@@ -1,4 +1,4 @@
-#Crescent Hills Golf Course site sample for dev reasons only 
+# Crescent Hills Golf Course site sample for dev reasons only
 
 The project was implemented using the mobile first approach. Used media queries to scale up the layout.
 
