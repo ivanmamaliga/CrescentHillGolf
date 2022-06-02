@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/flex.css">
+    <title>CrescentHillsGolf_Sample</title>
+  </head>
+   
+  <body>
+
+    
+    <div class="wrapper">
+      <!-- header -->
+         <div class="header-container  clearfix">
+        
+          <header class="main-header"> 
+            <div class="logo">
+              <h1>Crescent Hills Golf Course (sample)</h1> 
+            </div>
+  
+              <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </a>
+  
+            <div class="navbar-links">
+              <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="#">About Us</a></li>
+                <li> <a href="#">Our Contacts</a></li>
+                <li> <a href="teetimes.html">Tee Times</a></li>
+  
+              </ul> 
+            </div> 
+          </header>
+  
+        </div> 
+  
+      <div class="hero-image clearfix">
+              
+              
+      </div> 
+        <!-- /hero -->
+
+      <section class="contact-us">
+
+          <h2>Write to us:</h2>
+
+          <address>
+            
+              1000 Dream Str. <br>
+              Louisville <br>
+              KY 21000 <br>
+              USA    
+
+          </address>
+
+      </section>    
+ 
+    <!-- footer -->
+   
+      <footer class="main-footer">
+        <span>&copy; 2020 Energy Management and Design.</span>
+      </footer> <!-- /footer -->
+
+    </div> <!-- wraper -->
+
+    <script type="text/javascript">
+      const toggleButton = document.getElementsByClassName('toggle-button')[0]
+      const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+      toggleButton.addEventListener('click', () => {
+        navbarLinks.classList.toggle('active')
+      })
+    </script>  
+
+    <script type="text/javascript">
+      const toggleButton = document.getElementsByClassName('toggle-button')[0]
+      const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+      
+      toggleButton.addEventListener('click', () => {
+        navbarLinks.classList.toggle('active')
+      });
+    </script>
+  </body>
+</html>

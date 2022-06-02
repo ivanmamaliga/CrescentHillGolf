@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/flex.css">
+  <title>CrescentHillsGolf_Sample</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <!-- header -->
+    <div class="header-container  clearfix">
+
+      <header class="main-header">
+        <div class="logo">
+          <h1>Crescent Hills Golf Course (sample)</h1>
+        </div>
+
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+
+        <div class="navbar-links">
+          <ul>
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">About Us</a></li>
+            <li> <a href="#">Our Contacts</a></li>
+            <li> <a href="teetimes.html">Tee Times</a></li>
+
+          </ul>
+        </div>
+      </header>
+
+    </div>
+
+    <div class="hero-image clearfix">
+
+      <div class="hero-text">
+        <h3>Please Visit Us!</h3>
+        <!-- <p>Help us save the Planet!</p> -->
+        <a href="teetimes.html"><button>Tee off times
+        </button></a>
+      </div>
+
+    </div>
+    <!-- /hero -->
+
+
+    <section class="main-container  clearfix">
+
+
+      <div class="col1">
+
+        <h2 class="project-title">Our Projects</h2>
+
+        <div class="cards">
+          <!-- img -->
+          <img class="img-one" src="img/GolfScenery.jpg" alt="">
+
+          <img src="img/Hero.png" alt="">
+
+        </div>
+
+      </div>
+
+      <!-- col2 -->
+
+      <div class="col2">
+
+        <h2>Energy Savings Calculator</h2>
+
+        <form id="calc" action="index.html">
+
+          <ul class="form">
+
+            <li><label for="inv">Your Investment<span aria-hidden="true" class="required">*</span></label>
+            </li>
+
+            <li><input type="text" id="inv" name="investment" id="Investment" placeholder="Enter value in US$">
+            </li>
+
+            <li><label for="sav">Yearly Savings<span aria-hidden="true" class="required">*</span></label></li>
+
+            <li><input type="text" id="sav" name="savings" id="Savings" placeholder=" Enter value in US$"></li>
+
+            <li><label for="int">Interest Rate<span aria-hidden="true" class="required">*</span></label></li>
+
+            <li><input type="text" id="int" name="interest" id="Interest" placeholder="Annual Interest Rate"></li>
+
+            
+
+            <li class="required"><h5>* indicates required field</h5></li>
+
+            <label for="comment">Your Comments:</label>
+
+            <li><textarea id="comment" placeholder="Please enter your comments (optional)"></textarea></li>
+
+                     
+            <button type="submit" id="btn-submit"><h2>Submit</h2></button>
+            
+            <button type="reset" id="btn-reset"><h2>Reset</h2></button>  
+          
+
+            <li><label for="payoff">Project Payoff</label>
+
+            <li><input type="text" id="poff" name="payoff" disabled></li>
+
+          </ul>
+
+        </form>
+        
+        <!-- /form -->
+
+      </section>
+    
+    <!-- footer -->
+
+    <footer class="main-footer">
+      <span>&copy; 2020 IM.inc.</span>
+    </footer>
+
+    <!-- footer -->
+
+  </div> <!-- wraper -->
+
+  <script src="js/form.js"></script>
+</body>
+
+</html>
