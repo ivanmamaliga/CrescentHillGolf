@@ -50,7 +50,7 @@ h2 {
 
 .main-header {
 
-  background-color: #59789a;
+  background-color: #fffffff3;
 }
 
 .logo {
@@ -66,7 +66,7 @@ h2 {
   justify-content: space-between;
   width: 600px;
   height: 50px;
-  background-color: blueviolet;
+  background-color: rgb(214, 226, 43);
 }
 
 .toggle-button .bar {
@@ -89,7 +89,7 @@ h2 {
 .navbar-links li a {
   display: block;
   text-decoration: none;
-  color: white;
+  color: rgb(90, 86, 112);
   padding: 1rem;
 }
 
@@ -120,7 +120,7 @@ h2 {
 .navbar-links a:hover,
 .navbar-links a:visited {
 
-  color: white;
+  color: rgb(16, 82, 37);
 }
 
 .navbar-links a:hover {
@@ -134,12 +134,12 @@ h2 {
 
 
 .hero-image {
-  background-image: linear-gradient(rgba(107, 67, 67, 0.3), rgba(42, 70, 73, 0.2)), url("../img/hero-img01.jpg");
+  background-image: linear-gradient(rgba(133, 172, 166, 0.9), rgba(151, 7, 77, 0.1)), url("../img/hero-img01.jpg");
   background-size: cover;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 200px;
 }
 
 .hero-text {
