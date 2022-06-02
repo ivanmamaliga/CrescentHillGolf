@@ -57,7 +57,7 @@ h2 {
   text-align: left;
 }
 
-.toggle-button {
+/* .toggle-button {
   position: absolute;
   top: 2rem;
   right: 1rem;
@@ -67,15 +67,15 @@ h2 {
   width: 60px;
   height: 35px;
   background-color: rgb(195, 234, 175);
-}
-
+} */
+/* 
 .toggle-button .bar {
   height: 8px;
   width: 100%;
   background-color: rgb(6, 3, 53);
   border-radius: 10px;
   z-index: 2000;
-}
+} */
 
 .navbar-links ul {
   width: 100%;
@@ -93,9 +93,9 @@ h2 {
   padding: 1rem;
 }
 
-.navbar-links li:nth-child(4) {
+/* .navbar-links li:nth-child(4) {
   font-style: italic;
-}
+} */
 
 .navbar-links li:hover {
   background-color: #33a1b4;
@@ -107,9 +107,63 @@ h2 {
   flex-direction: column;
 }
 
-.navbar-links {
+/* .navbar-links {
   display: none;
+} */
+
+/** FOR events **/
+/* The events container */
+.events {
+  float: left;
+  overflow: hidden;
+
 }
+
+/* events button */
+.events .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(71, 118, 89);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  /* Important for vertical align on mobile phones */
+  margin: 0;
+  /* Important for vertical align on mobile phones */
+}
+
+/* events content (hidden by default) */
+.events-content {
+  display: none;
+  position: absolute;
+  background-color: #9fe8e2;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the events */
+.events-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to events links on hover */
+.events-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the events menu on hover */
+.events:hover .events-content {
+  display: list-item;
+}
+
+/** FOR events END**/
 
 
 .navbar-links.active {
