@@ -57,7 +57,7 @@ h2 {
   text-align: left;
 }
 
-/* .toggle-button {
+.toggle-button {
   position: absolute;
   top: 2rem;
   right: 1rem;
@@ -67,15 +67,15 @@ h2 {
   width: 60px;
   height: 35px;
   background-color: rgb(195, 234, 175);
-} */
-/* 
+}
+
 .toggle-button .bar {
   height: 8px;
   width: 100%;
   background-color: rgb(6, 3, 53);
   border-radius: 10px;
   z-index: 2000;
-} */
+}
 
 .navbar-links ul {
   width: 100%;
@@ -93,9 +93,9 @@ h2 {
   padding: 1rem;
 }
 
-/* .navbar-links li:nth-child(4) {
+.navbar-links li:nth-child(4) {
   font-style: italic;
-} */
+}
 
 .navbar-links li:hover {
   background-color: #33a1b4;
